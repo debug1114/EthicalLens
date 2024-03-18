@@ -4,7 +4,7 @@ This repo contains the source code of **Ethical-Lens**, which is an easily plug-
 
 Refer to our paper for more details: [EthicalLens: A Machine Learning Solution to Curbing Malicious Usages of Open-Source Text-to-Image Models](http://www.ethicallens.com/)
 
-There is a video which showcases the performance of Ethical Lens in various scenarios. You can access [here](https://debug1114-ethicallens.hf.space/).
+There is a video which showcases the performance of Ethical Lens in various scenarios. You can access [here](https://www.youtube.com/watch?v=QbsKFwHbY-8).
 
 ![intro](docs/assets/intro.png)
 
