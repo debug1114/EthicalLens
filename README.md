@@ -6,7 +6,7 @@ Refer to our paper for more details: [EthicalLens: A Machine Learning Solution t
 
 There is a video which showcases the performance of Ethical Lens in various scenarios. You can access [here](https://www.youtube.com/watch?v=QbsKFwHbY-8).
 
-![intro](docs/assets/intro.png)
+![intro](/docs/assets/intro.png)
 
 ## Installation
 
@@ -33,13 +33,34 @@ pip install -r requirements.txt
 The installation is the same as [FairFace]([dchen236/FairFace (github.com)](https://github.com/dchen236/FairFace)). Please go through the following steps.
 
 ```
-cd common
+cd common/fairface
+
+# Download the pretrained models from https://drive.google.com/drive/folders/1F_pXfbzWvG-bhCpNsRj6F_xsdjpesiFu?usp=sharing
+# Save it in the folder 'fair_face_model'. 
+# Two models are included, race_4 model predicts race as White, Black, Asian and Indian and race_7 model predicts races as White, Black, Latino_Hispanic, East, Southeast Asian, Indian, Middle Eastern.
+
 ```
 
 ### Step3: Install AdaTrans
 
 ```
-cd common
+cd common/AdaTrans
+
+# The pre-trained models can be downloaded at:
+# 1. Google Drive: https://drive.google.com/drive/folders/1T5y6l5Byl4pDzFCcDRXDOmmXde2HGg5U?usp=sharing
+# 2. Baidu Disk: https://pan.baidu.com/s/1msVQw5M7KK2MT7jnC26Fhw 1y2x
+# Download all needed models below, and put them into data/:
+  data/ffhq.pkl
+  data/e4e_ffhq_encode.pt
+  data/r34_a40_age_256_classifier.pth
+  data/deeplab_model.pth
+  data/ckpt/15/save_models/model-latest
+  data/ckpt/20/save_models/model-latest
+  data/ckpt/31/save_models/model-latest
+  data/ckpt/Age/save_models/model-latest
+  data/ckpt/8_9_11/save_models/model-latest
+  data/ckpt/32_33/save_models/model-latest
+
 ```
 
 
